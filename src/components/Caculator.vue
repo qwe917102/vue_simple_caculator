@@ -96,7 +96,7 @@ export default {
     },
     // 暫存數字
     setPrevious() {
-      // 暫存值 ( 按下一個數字前要清空目前的 current )
+      // 暫存值 ( 按下運算符號時要清空目前的 current )
       this.previous = this.current;
       // 表示使用者確實按下任何一個運算子
       this.operatorClicked = true;
